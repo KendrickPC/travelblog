@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;  
+}
+
+.navBar {
+  color: #FFF;
+  background-color: #F55A5A;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.globe {
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.siteTitle {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 30.00%;
+  padding: 15px;
+}
+
+.column2 {
+  float: left;
+  width: 70.00%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+
+}
+
+.photo {
+  max-width: 100%;
+  padding: 15px;
+  border-radius: 35px;
+}
+
+.cardCountry {
+  display: flex;
+}
+
+.icon {
+  margin-top: 15px;
+}
+
+.country {
+  margin-left: 10px;
+}
+
+.googleLink {
+  margin-top: 20px;
+  margin-left: 15px;
+  color: grey;
+}
+
+.cardDescription {
+  max-width: 500px;
+}
